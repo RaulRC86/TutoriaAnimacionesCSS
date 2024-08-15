@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./imagen/fondo.png') no-repeat center center;
+    background-size: cover;
+}
+
+.habitacion {
+    height: 100%;
+    width: 200%;
+}
+
+.lampara {
+    color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    border: 1px solid white;
+}
+
+/* ---------------------- Ejercicio: Lámpara decorativa --------------------- */
+
+/* ------------- Colocar la lampara centrada con bordes redondo ------------- */
+/* ------------- colocar el nombre centrado dentro de la lampara ------------- */
+/* ------------------ colocarle una transition a la lampara ----------------- */
+
+/* La lámpara debe ser representada por una caja de 100px por 100px. Utiliza */
+/* @keyframes para animar la lámpara de la siguiente manera:
+
+En el instante inicial (0%), la lámpara debe cambiar su color a un tono suave
+de amarillo, representando una luz tenue.
+En el instante intermedio (50%), la lámpara debe cambiar su color a un tono
+más cálido de naranja, intensiﬁcando la luminosidad.
+En el instante ﬁnal (100%), la lámpara debe cambiar su color a un azul suave,
+simbolizando una luz ambiental relajante. */
